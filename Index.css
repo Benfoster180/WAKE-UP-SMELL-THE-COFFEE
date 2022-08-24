@@ -1,39 +1,67 @@
-<!DOCTYPE html>
-<html>
-<head>
-<link rel="stylesheet" href="Index.css">
-<title>>WAKE UP & SMELL THE COFFEE</title>
-</head>
-<body>
-    <div>
-        <hi id="Main_title">WAKE UP & SMELL THE COFFEE</hi>
-    </div>
+body{
+    background: -webkit-gradient(linear, left top, right bottom, color-stop(10%,#92FFC0), color-stop(100%,#002661));
+}
 
+#User_input{
+    text-align: center;
+}
 
-    <div id="User_input">
-        <div><input class="User_input_box" type="text" id="name" name="name" placeholder="What is your name?"></div>
-        <p> </p>
-    </div>
+#name.User_input_box{
+    width: 20%;
+    height: 25px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-align: center;
+}
+
+#IG_Handle.User_input_box{
+    width: 20%;
+    height: 25px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-align: center;
+}
+
+#Question.User_input_box{
+    width: 45%;
+    height: 100px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-align: justify;
+    white-space: initial;
     
-    <div id="User_input">
-        <div><input class="User_input_box" type="text" id="IG_Handle" name="IG_Handle" placeholder="Instagram @"> </div>
-        <p> </p>
-    </div>
+}
 
-    <div id="User_input">   
-        <div><textarea class="User_input_box" type="text" id="Question" name="Question" placeholder="What is your Question?"></textarea></div>
-        <p> </p>
-    </div>
-    
-    <div id="User_input">
-        <button id="Submit_Button" type="button">Click Me!</button>
-    </div>
+#Main_title{
+    font-size: 45px;
+}
+
+#Submit_Button{
+    width: 20%;
+    height: 25px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    text-align: center;
+ 
+}
 
 
-
-
-
-</body>
-
-
-</html>
+#Submit_Button:hover{
+    background-color: pink;
+}
